@@ -3,7 +3,9 @@
   "version": "0.0.0-development",
   "description": "A template for creating npm CLI tools using TypeScript and VSCode",
   "files": [
-    "lib/**/*"
+    "!lib/__tests__/**/*",
+    "lib/**/*",
+    "bin/**/*"
   ],
   "bin": {
     "my-command": "./bin/index.js"
