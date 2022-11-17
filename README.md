@@ -64,7 +64,6 @@ Usage: my-command [options]
 Options:
   -V, --version            output the version number
   -d, --debug              enables verbose logging (default: false)
-  -v, --verbose            enables verbose logging (default: false)
 
 Examples:
 
