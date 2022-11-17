@@ -1,6 +1,6 @@
 describe('cli', () => {
   it('should exist', () => {
-    const cli = require('../../src/cli');
+    const cli = require('../../cli');
 
     expect(cli).toBeTruthy();
   });
