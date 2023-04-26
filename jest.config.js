@@ -8,9 +8,11 @@ module.exports = {
     '!<rootDir>/src/types/**/*.ts',
     '!<rootDir>/src/cli.ts',
   ],
+  collectCoverage: true,
   globals: {
     'ts-jest': {
       diagnostics: false,
+      isolatedModules: true,
     },
   },
 };

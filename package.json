@@ -19,7 +19,7 @@
     "prepare": "husky install",
     "semantic-release": "semantic-release",
     "test:watch": "jest --watch",
-    "test": "jest --coverage",
+    "test": "jest",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
